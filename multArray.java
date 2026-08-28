@@ -10,11 +10,13 @@ public class multArray {
       }
       System.out.println();
     }
+
+    
     for (int n[] : nums) {
       for (int m : n) {
-        System.out.println(m + " ");
+        System.out.print(m + " ");
       }
-      System.err.println();
+      System.out.println();
     }
   }
 
