@@ -6,7 +6,7 @@ public class multArray {
 
     for (int i=0;i<nums.length;i++) {
       for (int j = 0; j < nums[i].length; j++) {
-        nums[i][j] = (int) Math.random() * 100;
+        nums[i][j] = (int)( Math.random() * 100);
       }
       System.out.println();
     }
