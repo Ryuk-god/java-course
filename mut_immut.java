@@ -40,6 +40,7 @@ public class mut_immut {
 
         // =========================================================
         // 2. STRINGBUILDER
+        // The default capacity of StringBuilder is 16 characters.
         // =========================================================
 
         // StringBuilder is MUTABLE.
