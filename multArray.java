@@ -1,12 +1,12 @@
 public class multArray {
   public static void main(String[] args) {
-    int nums[][] = new int[3][];
+    int nums[][] = new int[3][4];
     // for the random value
     // int random = (int)Math.random()*100;
 
-    for (int n[] : nums) {
-      for (int j = 0; j < n.length; j++) {
-        n[j] = (int) Math.random() * 100;
+    for (int i=0;i<nums.length;i++) {
+      for (int j = 0; j < nums[i].length; j++) {
+        nums[i][j] = (int) Math.random() * 100;
       }
       System.out.println();
     }
