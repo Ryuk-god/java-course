@@ -49,48 +49,40 @@ public class Demo {
 }
 */
 
-
-
-interface Computer
-{
-	 void code();
+interface Computer {
+	void code();
 }
 
-class Laptop implements Computer
-{
-	public void code()
-	{
+class Laptop implements Computer {
+	public void code() {
 		System.out.println("code, compile, run");
 	}
 
 }
 
-class Desktop implements Computer
-{
-	public void code()
-	{
+class Desktop implements Computer {
+	public void code() {
 		System.out.println("code, compile, faster");
 	}
 }
-class Developer
-{
-//	public void devApp(Laptop lap)
-	public void devApp(Computer lap)
-	{
+
+class Developer {
+	// public void devApp(Laptop lap)
+	public void devApp(Computer lap) {
 		lap.code();
 	}
 }
 
 public class interfaceDemo {
-    public static void main(String[] args) {
-//        Laptop lap=new Laptop();
-//        Desktop desk=new Desktop();
-        
-        Computer lap=new Laptop();
-        Computer desk=new Desktop();
-        
-        Developer navin=new Developer();
-        navin.devApp(lap);
-        
-    }
+	public static void main(String[] args) {
+		// Laptop lap=new Laptop();
+		// Desktop desk=new Desktop();
+
+		Computer lap = new Laptop();
+		Computer desk = new Desktop();
+
+		Developer navin = new Developer();
+		navin.devApp(lap);
+
+	}
 }

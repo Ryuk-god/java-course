@@ -1,8 +1,11 @@
-
 public class main {
+
     public static void main(String[] args) {
-        questionSerevice serevice=new questionSerevice();
-        serevice.playQuiz();
-        serevice.printScore();
+
+        questionService service = new questionService();
+
+        service.playQuiz();
+
+        service.printScore();
     }
 }

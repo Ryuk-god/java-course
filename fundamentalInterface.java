@@ -1,7 +1,7 @@
 @FunctionalInterface
 interface A {
-  
-  int show( int i,int j);
+
+  int show(int i, int j);
   // void start();
 }
 
@@ -16,8 +16,7 @@ public class fundamentalInterface {
     // A obj = (int i)->System.out.println("hey you can do it "+ i);
     // obj.show(5);
 
-
-    A obj =(int i,int j)->i+j;
-   System.out.println( obj.show(5,9));
+    A obj = (int i, int j) -> i + j;
+    System.out.println(obj.show(5, 9));
   }
 }
