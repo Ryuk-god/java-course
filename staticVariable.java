@@ -26,7 +26,7 @@ public class staticVariable {
 
       mobile.name = "smartphone";
 
-      // these prove the last static variable is give 
+      // these prove the last static variable is give that is for the all 
       obj1.show();
       obj2.show();
 
